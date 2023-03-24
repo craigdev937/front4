@@ -20,7 +20,7 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     overflow-x: hidden;
     font-size: 13px;
-    background: var(--light-grayish-blue);
+    background: var(--white-gray);
     scroll-behavior: smooth;
 }
 
@@ -34,8 +34,6 @@ body {
     width: 90%;
     margin-inline: auto;
 }
-
-
 
 /* USER CONTAINER */
 .user__container {
@@ -70,6 +68,15 @@ body {
     border: 2px solid var(--light-violet);
 }
 
+#daniel__quote {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#daniel__story {
+    color: var(--light-grayish-blue);
+}
+
 /* JONATHAN SECTION */
 .jonathan {
     color: var(--white);
@@ -85,6 +92,15 @@ body {
     border: 2px solid var(--white);
 }
 
+#jonathan__quote {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#jonathan__story {
+    color: var(--light-grayish-blue);
+}
+
 /* JEANETTE SECTION */
 .jeanette {
     grid-area: jeanette;
@@ -97,6 +113,15 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--white);
+}
+
+#jeanette__quote {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#jeanette__story {
+    color: var(--light-grayish-blue);
 }
 
 /* PATRICK SECTION */
@@ -114,6 +139,15 @@ body {
     border: 2px solid var(--light-violet);
 }
 
+#patrick__quote {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#patrick__story {
+    color: var(--light-grayish-blue);
+}
+
 /* KIRA SECTION */
 .kira {
     grid-area: kira;
@@ -128,6 +162,16 @@ body {
     border: 2px solid var(--white);
 }
 
+#kira__quote {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#kira__story {
+    color: var(--light-grayish-blue);
+}
+
+/* USER SETTINGS */
 .user .user__info {
     padding-bottom: 2rem;
     display: flex;
